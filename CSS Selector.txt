@@ -1,0 +1,29 @@
+CSS Selector for Rediff.com
+
+1) Rediffmail 
+body > div.logobar > div > div.cell.topicons > a.mailicon
+
+body > div > div.lft_wrap > div.top_bar > div.cell.logo > div > span
+a[class = mailicon]
+
+2)Sign In:
+a[class = mailicon]
+
+3)Video
+a[class =vdicon]
+
+4)Money
+a.moneyicon.relative
+
+5)Shopping
+a.shopicon.relative
+
+6)Businessemail
+a.bmailicon.relative
+
+7) Search Button
+input[class = newsrchbtn]
+
+8) Movies
+a[class = backmovies]
+#red_container_main > div.firstrow > div.bigstory > p > a

@@ -1,0 +1,55 @@
+Rediff.com:
+
+
+Advanced X Path
+
+
+1)Money
+//div[@class='cell topicons']/child::a[2]
+
+//a[@class ='mailicon']/following-sibling::a[1]
+
+//a[@class ='bmailicon relative']/preceding-sibling::a[1]
+
+
+//a[@class ='vdicon']/preceding-sibling::a[2]
+
+
+2)Business Email
+//div[@class='cell topicons']/child::a[3]
+
+//a[@class='moneyicon relative']/following-sibling::a[1]
+
+//a[@class='mailicon']/following-sibling::a[2]
+
+//div[@class='cell']/child::a[4]
+
+3)Rediff Mail
+//div[@class = 'cell topicons']/child::a[1]
+
+//a[@class = 'moneyicon relative']/preceding-sibling::a[1]
+
+//a[@class = 'bmailicon relative']/preceding-sibling::a[2]
+
+//a[@class = 'vdicon']/preceding-sibling::a[3]
+
+
+4)Video
+
+//a[@class = 'bmailicon relative']/following-sibling::a[1]
+
+//a[@class = 'moneyicon relative']/following-sibling::a[2]
+
+//a[@class = 'mailicon']/following-sibling::a[3]
+
+//div[@class = 'cell topicons']/child::a[4]
+
+5)Shopping
+//div[@class = 'cell topicons']/a[contains(text(),'shopping')]
+
+//div[@id = 'red_container_main']/preceding::a[text() = 'shopping']
+
+//div[@class = 'cell topicons']/child::a[5]
+
+//a[@class = 'vdicon']/following-sibling::a[1]
+
